@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///D:/liam/Documents/ouatprj.com/under-construction.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ouatprj</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./ybc-lw _ Under Construction_files/css2" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #e9eef2;
+      --ink: #14213d;
+      --muted: #4a5a73;
+      --tape: #f2b705;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101a2e;
+        --ink: #eef2f7;
+        --muted: #a5b2c6;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { height: 100%; margin: 0; }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Bricolage Grotesque", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.5;
+    }
+
+    .tape {
+      height: 18px;
+      background: repeating-linear-gradient(
+        -45deg,
+        var(--tape) 0 18px,
+        #14213d 18px 36px
+      );
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(2.5rem, 9vw, 4.5rem);
+      font-weight: 800;
+      line-height: 1.02;
+      letter-spacing: -0.03em;
+    }
+
+    p {
+      margin: 0;
+      max-width: 32rem;
+      font-size: 1.125rem;
+      color: var(--muted);
+    }
+
+    footer {
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="tape" aria-hidden="true"></div>
+
+  <main>
+    <h1>We’re building something here.</h1>
+    <p>This website is still under construction. Please check back soon.</p>
+  </main>
+
+  <footer>© <font _mstmutation="1"><span id="year" _mstmutation="1">2026</span> ybc-lw.</font></footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+
+</body></html>
